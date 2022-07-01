@@ -1,0 +1,20 @@
+/*general css file for */
+*{
+
+}
+html{
+    height: 100%;
+}
+body{
+    background: rgb(166,193,238);
+    background: linear-gradient(180deg, rgba(166,193,238,1) 0%, rgba(251,194,235,1) 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin:0;
+    background-attachment: fixed;
+}
+.med-phon-loginform i{
+    margin-top: 8px;
+    margin-left: -30px;
+    cursor: pointer;
+}
