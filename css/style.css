@@ -8,14 +8,14 @@ html{
 }
 body{
     background: rgb(166,193,238);
-    background: linear-gradient(180deg, rgba(166,193,238,1) 0%, rgba(251,194,235,1) 100%);
+    background: linear-gradient(190deg, #A6C1EE 0%, #FBC2EB 100%);
     background-repeat: no-repeat;
     height: 100%;
     margin:0;
     background-attachment: fixed;
 }
 .med-phon-loginform i{
-    margin-top: 15px;
+    margin-top: 24px;
     margin-left: -30px;
     cursor: pointer;
 }
@@ -49,6 +49,7 @@ body{
 .form-control {
     line-height: 2.5!important;
     border-radius: 10px;
+    margin-top:0.5rem;
     justify-content: center;
 }
 }
