@@ -1,6 +1,7 @@
 /*general css file for */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-
+    font-family: 'Poppins', sans-serif;
 }
 html{
     height: 100%;
@@ -14,7 +15,40 @@ body{
     background-attachment: fixed;
 }
 .med-phon-loginform i{
-    margin-top: 8px;
+    margin-top: 15px;
     margin-left: -30px;
     cursor: pointer;
+}
+.med-phon-login h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.med-phon-loginform .med-login-link p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.form-control {
+    line-height: 2.0!important;
+    border-radius: 10px;
+    justify-content: center;
+}
+.form-check-label{
+    font-weight: 400;
+    font-size: 14px;
+}
+.med-recov-pass span{
+    color: red;
+    font-weight: 400;
+    font-size: 12px;
+}
+@media(max-width:576px){
+.med-phon-img1 img {
+        width: 260px;
+        height: 303px;
+    }
+.form-control {
+    line-height: 2.5!important;
+    border-radius: 10px;
+    justify-content: center;
+}
 }
