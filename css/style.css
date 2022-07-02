@@ -41,6 +41,39 @@ body{
     font-weight: 400;
     font-size: 12px;
 }
+.med-profile-logo img{
+    background-color: #ffd88d;
+    border-radius: 5rem;
+}
+.med-profile-desc{
+    text-align: center;
+    margin-top: 1.6rem;
+}
+.med-profile-button{
+    padding-top:1.6rem;
+}
+.med-profile-button button{
+    outline: none;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 8px 24px rgba(255, 87, 92, 0.25);
+    color:#fff;
+    font-weight: 400;
+    font-size: 20px;
+    border:none;
+    background-color: #9475AD;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.med-bottom-button {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 @media(max-width:576px){
 .med-phon-img1 img {
         width: 260px;
@@ -77,5 +110,12 @@ body{
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
+}
+.med-bottom-button {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 }
