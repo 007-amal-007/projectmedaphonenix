@@ -73,6 +73,22 @@ body{
     position: fixed;
     border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    mix-blend-mode: screen;
+}
+.med-bottom-button:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -11px;
+    right: 152px;
+    width: 50px;
+    border-radius: 5rem;
+    height: 50px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(183deg);
+    background: rgb(166,193,238);
+    background: #FBC2EB;
+    z-index: -1;
 }
 .med-reminder-sec{
     padding-bottom: 1rem;
@@ -126,5 +142,6 @@ body{
 .med-bottom-button img{
     width:50px;
     height: 50px;
+    margin-top: -0.6rem;
 }
 }
