@@ -105,12 +105,19 @@ body{
         width: 260px;
         height: 303px;
     }
-.form-control {
-    line-height: 2.5!important;
+.med-button-class .form-control {
+    line-height: 1.5!important;
     border-radius: 10px;
-    margin-top:0.5rem;
+    margin-top: 0.5rem;
     justify-content: center;
 }
+.form-control {
+    line-height: 3.2!important;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    justify-content: center;
+}
+
 .med-profile-logo img{
     background-color: #ffd88d;
     border-radius: 5rem;
