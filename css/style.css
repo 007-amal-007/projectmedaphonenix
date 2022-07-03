@@ -135,7 +135,7 @@ body{
     width: 100%;
     height: 50px;
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     border-bottom-right-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
