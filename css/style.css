@@ -133,7 +133,7 @@ body{
     border:none;
     background-color: #9475AD;
     width: 250px;
-    height: 45px;
+    height: 55px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 100px;
 }
@@ -159,7 +159,7 @@ body{
     position: absolute;
     display: block;
     top: -11px;
-    right: 143px;
+    right: 170px;
     width: 50px;
     border-radius: 5rem;
     height: 50px;
@@ -170,6 +170,6 @@ body{
     z-index: -1;
 }
 .med-profile-desc img{
-    height: 120px;
+    height: 220px;
 }
 }
