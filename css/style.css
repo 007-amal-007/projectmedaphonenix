@@ -100,6 +100,119 @@ body{
     padding-bottom: 1rem;
     margin-bottom: 2rem;
 }
+.med-medication-sec{
+    margin-top: 2rem;
+}
+.med-medication-reminder{
+    margin-top:2rem;
+}
+.med-medication-medic h6{
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.med-medication-color h6{
+    margin-top: 2rem;
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem; 
+}
+.med-medication-name {
+    margin-top:2rem;
+}
+.med-medication-name span{
+    color:#000;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+}
+.med-medication-image-set1{
+    margin-top:1rem;
+    padding:0 0 0 0.5rem;
+}
+.med-medication-image-set1 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-image-set2{
+    margin-top:1rem;
+    padding:0 0.5rem 0 0.5rem;
+}
+.med-medication-image-set2 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    border-radius: 100px;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-color-image-set1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-color-image-set2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-reminder .form-check-input{
+    color: #fff;
+    background-color: #9475AD;
+}
+.med-medication-reminder .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5rem;
+}
+.med-medication-reminder .form-switch {
+    border: 1px solid #fff;
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+.med-medication-reminder .form-check-input{
+    margin-right: 1rem;
+}
+.med-medication-reminder .form-switch .form-check-input {
+    width: 2em;
+    margin-left: -2.5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+}
+.med-selection select{
+    outline: none;
+    word-wrap: normal;
+    width: 170px;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+    color: #fff;
+    text-align: center;
+    background-color: #9475AD;
+}
+.med-selection-button{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.med-selection-button span{
+    background-color: #fff;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+}
+
+/*---------for mobile design--------*/
 @media(max-width:576px){
 .med-phon-img1 img {
         width: 260px;
@@ -178,5 +291,123 @@ body{
 }
 .med-profile-desc img{
     height: 220px;
+}
+.med-medication-sec{
+    margin-top: 2rem;
+}
+.med-medication-reminder{
+    margin-top:2rem;
+}
+.med-medication-medic h6{
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.med-medication-color h6{
+    margin-top: 2rem;
+    color:#000;
+    border:1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem; 
+}
+.med-medication-name {
+    margin-top:2rem;
+}
+.med-medication-name span{
+    color:#000;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.8rem 0.5rem 1.8rem;
+}
+.med-medication-image-set1{
+    margin-top:1rem;
+    padding:0 0 0 0.5rem;
+}
+.med-medication-image-set1 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-image-set2{
+    margin-top:1rem;
+    padding:0 0.5rem 0 0.5rem;
+}
+.med-medication-image-set2 img{
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 0.5rem;
+    border-radius: 100px;
+    margin: 0 0.9rem 0 0;
+}
+.med-medication-color-image-set1{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-color-image-set2{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.med-medication-reminder .form-check-input{
+    color: #fff;
+    background-color: #9475AD;
+}
+.med-medication-reminder .form-check-label {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 5rem;
+}
+.med-medication-reminder .form-switch {
+    border: 1px solid #fff;
+    padding-bottom: 1.6rem;
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+.med-medication-reminder .form-check-input{
+    margin-right: 1rem;
+}
+.med-medication-reminder .form-switch .form-check-input {
+    width: 2em;
+    margin-left: -2.5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e");
+}
+.med-selection select{
+    outline: none;
+    word-wrap: normal;
+    width: 170px;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+    color: #fff;
+    text-align: center;
+    background-color: #9475AD;
+}
+.med-selection-button{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.med-selection-button span{
+    background-color: #fff;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 18px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
+}
+.med-medication-next button{
+    border:none;
+    color:#fff;
+    background: linear-gradient(180deg, #9475AD 0%, #9475AD 100%);
+    border-radius: 23px;
+    transform: matrix(0.98, 0, 0.2, 1, 0, 0);
 }
 }
