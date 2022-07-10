@@ -410,7 +410,40 @@ body{
     border-radius: 23px;
     transform: matrix(0.98, 0, 0.2, 1, 0, 0);
 }
-input[type="range"]{
-    
-}
+.med-input-range1 input[type="range"] {
+    position: absolute;
+    top: 26%;
+    transform: rotate(270deg);
+ }
+ .med-input-range1 .float-endss{
+    position: absolute;
+    top: 35%;
+    left: 3.5rem;
+    color: #9475AD;
+ }
+ .med-input-range2 input[type="range"] {
+    position: absolute;
+    left: 5.5rem;
+    top: 26%;
+
+    transform: rotate(270deg);
+ }
+ .med-input-range2 .float-endss{
+    position: absolute;
+    left: 8.1rem;
+    top: 35%;
+    color: #9475AD;
+ }
+ .med-input-range3 input[type="range"] {
+    position: absolute;
+    left:10rem;
+    top: 26%;
+    transform: rotate(270deg);
+ }
+ .med-input-range3 .float-endss{
+    position: absolute;
+    left: 13.1rem;
+    top: 35%;
+    color: #9475AD;
+ }
 }
