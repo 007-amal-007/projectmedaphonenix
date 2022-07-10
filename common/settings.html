@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedPhoenix | Settings</title>
+    <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64" href="../assets/Phoenix-image.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-----boostrap icons-------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-----css for bootstrap 5----->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-----js for bootstrap 5------>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!------boostrap icon for -->
+</head>
+<body>
+    <div class="med-setting-se">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="med-profile-logo pt-2">
+                        <img src="../assets/reminder/81.png" alt="">
+                    </div>    
+                    <div class="med-medication-medic mt-4">
+                        <h6>Settings</h6>
+                    </div>         
+                    <div class="med-medication-medic mt-3">
+                        <h6>Medication Time Notification</h6>
+                    </div>      
+                    <div class="">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input float-end" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label float-start text-white" for="flexSwitchCheckDefault">Sound</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input float-end" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label float-start text-white" for="flexSwitchCheckDefault">Vibrate</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input float-end" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                            <label class="form-check-label float-start text-white" for="flexSwitchCheckDefault">Contiunos Alarm Mode<br>User Action</label>
+                        </div>
+                    </div>
+                    <div class="med-medication-medic mt-4">
+                        <h6>Sound Notification</h6>
+                    </div>     
+                    <div class="d-flex"style="width:100%;">
+                        <label for="volume" class="text-white" style="width: 100%;">ALARM VOLUME</label>
+                        <input type="range" orient="vertical" style="width: 100%;accent-color: #B71FFFD1;">
+                    </div>
+                    <div class="d-flex"style="width:100%;">
+                        <label for="imgsec" class="text-white" style="width: 100%; padding-top: 1.5rem;">Custom Alarm Sound</label>
+                        <img src="../assets/Music.png" id="imgsec" name="imgsec" alt="">                      
+                    </div>      
+                    <div class="d-flex"style="width:100%;"> 
+                        <label for="timesec" class="text-white" style="width: 100%;">Alarm Buz Sound</label>
+                        <input type="text" id="timesec" placeholder="20sec" style="width: 100px;border-radius: 10px;border:none;color: black;" />                      
+                    </div>    
+                    <div class="med-medication-medic mt-4">
+                        <h6>Snooze Mode</h6>
+                    </div>    
+                    <div class="form-check form-switch">
+                        <input class="form-check-input float-end" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label float-start text-white" for="flexSwitchCheckDefault">Snooze</label>
+                    </div>
+                    <div class="d-flex" style="width: 100;">
+                        <label for="timesec" class="text-white" style="width: 100%;">Snooze Alarm Resume</label>
+                        <input type="text" id="timesec" placeholder="5min" style="width: 100px;border-radius: 10px;border:none;color: black;" />   
+                    </div>
+                    <div class="med-medication-medic mt-4">
+                        <h6>Cloud Synchronization</h6>
+                    </div>  
+                    <div class="d-flex justify-content-around"style="width:100%;">
+                        <img src="../assets/cloud 1.png" id="imgsec" name="imgsec" alt="">   
+                        <label for="imgsec" class="text-white" style="padding-top: 1.5rem; float: right;">Custom Alarm Sound</label>                   
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="med-bottom-button">
+        <img src="../assets/Phoenix-top.png"  alt="">
+    </div>
+</body>
+</html>
