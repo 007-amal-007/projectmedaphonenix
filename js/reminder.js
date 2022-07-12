@@ -1,4 +1,8 @@
-// https://mocki.io/v1/232b9082-191f-4cf4-a847-2bf6e27af6bb
+//fake api doing get and post call vice versa 
+//enter the input data and that will enter intot the table after you add
+//fake ai for render the data to ui
+//https://mocki.io/v1/232b9082-191f-4cf4-a847-2bf6e27af6bb
+//post call not working due to it is a fak api
 
   function fetchData(){
     fetch("https://mocki.io/v1/232b9082-191f-4cf4-a847-2bf6e27af6bb")

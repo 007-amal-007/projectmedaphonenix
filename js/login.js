@@ -14,7 +14,7 @@ function login() {
     const objects = JSON.parse(this.responseText);
       console.log(objects);
       if (objects['message'] == 200) {
-        window.location.href = '../common/reminder.html';
+        window.location.href = '../index.html';
         alert('success')
       }else {
         alert("error")

@@ -16,7 +16,10 @@ html, body {
   height: 100%;
   margin: 0;
 }
-
+.med-cal-div{
+  top:60%;
+  position:fixed;
+}
 .salmon, .prev-.salmon {
   font-family: "Monserrat", sans-serif;
   position: fixed;
